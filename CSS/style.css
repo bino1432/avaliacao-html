@@ -204,3 +204,30 @@
 .img_zoom {
     width: 8% 
 }
+.titulo_informacao {
+    font-family: var(--FontePrimaria);
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 150px;
+}
+.paragrafo_info {
+    font-family: var(--FontePrimaria);
+    font-weight: 400;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 285px;
+    margin-right: 285px;
+    margin-top: 20px;
+}
+.grafico_info {
+    display: flex;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 190px;
+}
+.blocos_info {
+    width: 65%;
+    margin-top: 200px;
+    margin-left: 230px;
+}
