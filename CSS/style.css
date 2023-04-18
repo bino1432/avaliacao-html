@@ -173,3 +173,34 @@
     margin-left: 400px;
     margin-top: -43px;
 }
+.patrocinios {
+    background-color: var(--Azul);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 130px;
+    z-index:1;
+    padding-top: 25px; 
+    padding-bottom: 25px;
+}
+.img_stripe {
+    width: 5%;
+}
+.img_google{
+    width: 7%
+}
+.img_sansung {
+    width: 9%
+}
+.img_visa {
+    width: 5%
+}
+.img_spotify {
+    width: 8%
+}
+.img_linkedin {
+    width: 7%
+}
+.img_zoom {
+    width: 8% 
+}
