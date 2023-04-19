@@ -3,6 +3,7 @@
 
 :root {
     --Verde: #C7F2AB;
+    --VerdeRodape: #A3DC2F;
     --Azul: #1668E8;
     --Preto: #000000;
     --Cinza: #F7F7F7;
@@ -638,10 +639,96 @@
 }
 .rodape {
     background-color: var(--Azul);
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.rodape_conteudo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .coluna_icon {
     display: flex;
     flex-direction: column;
+}
+.coluna_company {
+    display: flex;
+    flex-direction: column;
+}
+.coluna_SupportUs {
+    display: flex;
+    flex-direction: column;
+}
+.coluna_Resources {
+    display: flex;
+    flex-direction: column;
+}
+.coluna_Address {
+    display: flex;
+    flex-direction: column;
+}
+.linha_rodape {
+    margin-left: 155px;
+    margin-top: 30px;
+}
+.paragrafo_rodape_final {
+    display: flex;
+    justify-content: center;
+    font-family: var(--FontePrimaria);
+    color: var(--Branco);
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.link_rodape {
+    text-decoration: none;
+    color: var(--Branco);
+    font-family: var(--FontePrimaria);
+    font-size: 12px;
+    margin-top: 20px;
+}
+.destaque_verde {
+    color: var(--VerdeRodape);
+}
+.paragrafo_rodape {
+    color: var(--Branco);
+    font-family: var(--FontePrimaria);
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.titulo_secundario_rodape {
+    color: var(--Branco);
+    font-weight: 400;
+    font-family: var(--FontePrimaria);
+    font-size: 15px;
+}
+.titulo_rodape {
+    color: var(--Branco);
+    font-weight: 600;
+    font-family: var(--FontePrimaria);
+    font-size: 15px;
+}
+.botao_rodape {
+    text-decoration: none;
+    border: solid var(--Branco);
+    background-color: var(--Branco);
+    color: var(--Preto);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--FontePrimaria);
+    font-size: 12px;
+    width: 65%;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.icon_branco {
+    width: 70%;
+}
+.icons_rodape {
+    margin-top: 20px;
+    width: 60%;
 }
