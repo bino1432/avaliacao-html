@@ -6,20 +6,24 @@
     --Azul: #1668E8;
     --Preto: #000000;
     --Cinza: #F7F7F7;
+    --CinzaEscuto: #65676C;
     --Branco: #FFFFFF;
 
     --FontePrimaria: 'Inter', sans-serif;
     --FonteSecundaria: 'Work Sans', sans-serif;
 }
+
 * {
     margin: 0;
     padding: 0;
 }
+
 .promocao {
     display: flex;
     justify-content: center;
     background-color: var(--Verde);
 }
+
 .paragrafo_promocao {
     font-size: 14px;
     background-color: var(--Verde);
@@ -28,6 +32,7 @@
     font-family: var(--FontePrimaria);
     font-weight: 400;
 }
+
 .botao_promocao {
     display: flex;
     justify-content: center;
@@ -45,13 +50,16 @@
     margin-top: 9px;
     box-shadow: 0px 3px rgba(0, 0, 0, 0.365);
 }
+
 .cabecalho {
     padding: 10px;
 }
+
 .cabecalho_menu {
     display: flex;
     align-items: center;
 }
+
 .logoN {
     color: var(--Azul);
     font-family: var(--FontePrimaria);
@@ -59,6 +67,7 @@
     margin-left: 100px;
     margin-right: 270px;
 }
+
 .cabecalho_menu_botao {
     text-align: center;
     display: flex;
@@ -74,6 +83,7 @@
     height: 40px;
     margin-left: 5px;
 }
+
 .cabecalho_pesquisa {
     display: flex;
     background-color: var(--Branco);
@@ -81,11 +91,12 @@
     border-radius: 50px;
     width: 150px;
     margin-left: 25px;
-}   
+}
+
 .cabecalho_search {
     border: none;
     height: 32px;
-    width:110px;
+    width: 110px;
     align-items: center;
     justify-content: center;
     margin-top: 1px;
@@ -93,28 +104,34 @@
     padding-bottom: 2px;
     margin-left: 2px;
 }
+
 .fa-solid {
     margin-top: 10px;
     margin-left: 11px;
 }
+
 .cabecalho_menu_link {
     margin-right: 40px;
     text-decoration: none;
     width: 45px;
     font-family: var(--FontePrimaria);
 }
-.img_roxo{
+
+.img_roxo {
     float: right;
     margin-top: -109px;
 }
+
 .img_celular {
     width: 28%;
     float: right;
     margin-right: 110px;
 }
+
 #main_img img {
     display: flex;
 }
+
 .main_paragrafo {
     font-family: var(--FontePrimaria);
     font-size: 15px;
@@ -123,18 +140,21 @@
     margin-top: 45px;
     display: flex;
 }
+
 .img_mao {
     display: flex;
     margin-left: 216px;
     margin-top: -21px;
     width: 22px;
 }
+
 .titulo_main {
     font-family: var(--FontePrimaria);
     font-weight: 600;
     font-size: 50px;
     margin-left: 112px;
 }
+
 .SegundoParagrafo_main {
     font-family: var(--FontePrimaria);
     font-weight: 400;
@@ -144,6 +164,7 @@
     display: flex;
     margin-top: 20px;
 }
+
 .email_main {
     display: flex;
     background-color: var(--Branco);
@@ -157,6 +178,7 @@
     padding-left: 10px;
     padding-right: 110px;
 }
+
 .botao_main {
     text-align: center;
     display: flex;
@@ -173,37 +195,46 @@
     margin-left: 400px;
     margin-top: -43px;
 }
+
 .patrocinios {
     background-color: var(--Azul);
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 130px;
-    z-index:1;
-    padding-top: 25px; 
+    z-index: 1;
+    padding-top: 25px;
     padding-bottom: 25px;
 }
+
 .img_stripe {
     width: 5%;
 }
-.img_google{
+
+.img_google {
     width: 7%
 }
+
 .img_sansung {
     width: 9%
 }
+
 .img_visa {
     width: 5%
 }
+
 .img_spotify {
     width: 8%
 }
+
 .img_linkedin {
     width: 7%
 }
+
 .img_zoom {
-    width: 8% 
+    width: 8%
 }
+
 .titulo_informacao {
     font-family: var(--FontePrimaria);
     font-weight: 700;
@@ -215,6 +246,7 @@
     align-self: center;
     margin-left: 445px;
 }
+
 .paragrafo_info {
     font-family: var(--FontePrimaria);
     font-weight: 400;
@@ -224,23 +256,27 @@
     margin-top: 20px;
     margin-right: 281px;
 }
+
 .grafico_info {
     display: flex;
     width: 70%;
     margin-top: 40px;
     margin-left: 190px;
 }
+
 .blocos_info {
     width: 65%;
     margin-top: 200px;
     margin-left: 230px;
 }
+
 .titulo_informacao_4blocos {
     font-family: var(--FontePrimaria);
     font-weight: 700;
     margin-top: 100px;
     margin-left: 494px;
 }
+
 .paragrafo_informacao_4blocos {
     margin-top: 15px;
     font-family: var(--FontePrimaria);
@@ -248,49 +284,60 @@
     font-size: 15px;
     margin-left: 396px;
 }
-.dois_primeiros_blocos img{
+
+.dois_primeiros_blocos img {
     width: 37%;
     margin-top: 100px;
 }
+
 .bloco_info_1 {
     margin-left: 117px;
 }
+
 .bloco_info_2 {
     margin-left: 90px;
 }
+
 .titulo_bloco_1e2_info {
     display: flex;
     margin-top: 20px;
 }
+
 .titulo_1_info {
     font-family: var(--FontePrimaria);
     font-weight: 700;
     margin-left: 115px;
 }
+
 .titulo_2_info {
     font-family: var(--FontePrimaria);
     font-weight: 700;
     margin-left: 200px;
 }
+
 .paragrafo_bloco_1e2_info {
     display: flex;
     margin-top: 15px;
 }
+
 .paragrafo_bloco_1_info {
     font-family: var(--FontePrimaria);
     font-weight: 400;
     font-size: 15px;
     margin-left: 115px;
 }
+
 .paragrafo_bloco_2_info {
     margin-left: 95px;
     font-family: var(--FontePrimaria);
     font-weight: 400;
     font-size: 15px;
 }
+
 .dois_primeiros_botoes {
     display: flex;
 }
+
 .info_botao_1 {
     text-align: center;
     display: flex;
@@ -310,6 +357,7 @@
     padding-right: 20px;
     margin-top: 20px;
 }
+
 .info_botao_2 {
     text-align: center;
     display: flex;
@@ -329,49 +377,60 @@
     padding-right: 20px;
     margin-top: 20px;
 }
-.dois_ultimos_blocos img{
+
+.dois_ultimos_blocos img {
     width: 37%;
     margin-top: 60px;
 }
+
 .bloco_info_3 {
     margin-left: 117px;
 }
+
 .bloco_info_4 {
     margin-left: 90px;
 }
+
 .titulo_bloco_3e4_info {
     display: flex;
     margin-top: 20px;
 }
+
 .titulo_3_info {
     font-family: var(--FontePrimaria);
     font-weight: 700;
     margin-left: 115px;
 }
+
 .titulo_4_info {
     font-family: var(--FontePrimaria);
     font-weight: 700;
     margin-left: 330px;
 }
+
 .paragrafo_bloco_3e4_info {
     display: flex;
     margin-top: 15px;
 }
+
 .paragrafo_bloco_3_info {
     font-family: var(--FontePrimaria);
     font-weight: 400;
     font-size: 15px;
     margin-left: 115px;
 }
+
 .paragrafo_bloco_4_info {
     font-family: var(--FontePrimaria);
     font-weight: 400;
     font-size: 15px;
     margin-left: 120px;
 }
+
 .dois_ultimos_botoes {
     display: flex;
 }
+
 .info_botao_3 {
     text-align: center;
     display: flex;
@@ -391,6 +450,7 @@
     padding-right: 20px;
     margin-top: 20px;
 }
+
 .info_botao_4 {
     text-align: center;
     display: flex;
@@ -410,15 +470,105 @@
     padding-right: 20px;
     margin-top: 20px;
 }
-.texto_colorodo_e_imagem_preta {
+
+.texto_colorodo_e_imagem_preta h1 p {
     display: flex;
 }
+
 .texto_colorido {
     font-family: var(--FontePrimaria);
     font-weight: 700;
-    margin-left: 110px;
     margin-top: 110px;
+    margin-left: 110px;
 }
+
 .destaque {
     color: var(--Azul);
+}
+
+.paragrafo_pequeno {
+    margin-left: 110px;
+    margin-top: 15px;
+    font-family: var(--FontePrimaria);
+    font-weight: 400;
+    font-size: 10px;
+    color: var(--CinzaEscuto);
+}
+
+.img_retangulo_preto {
+    width: 70%;
+    margin-left: 103px;
+}
+
+.botoes_setas {
+    display: flex;
+}
+
+.seta_esquerda {
+    margin-left: 890px;
+    width: 35px;
+}
+
+.seta_direita {
+    margin-left: 10px;
+    width: 35px;
+}
+.perguntas h2 p img{
+    display: flex;
+}
+.titulo_perguntas {
+    font-family: var(--FontePrimaria);
+    font-weight: 700;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.paragrafo_perguntas {
+    font-family: var(--FontePrimaria);
+    font-weight: 400;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: var(--CinzaEscuto);
+    font-size: 13px;
+}
+.linha {
+    margin-left: 155px;
+    margin-top: 30px;
+}
+.pergunta1 {
+    font-family: var(--FontePrimaria);
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 180px;
+    display: flex;
+}
+.mais {
+    width: 60px;
+    display: flex;
+    margin-left: 1050px;
+    margin-top: -45px;
+}
+.linha2 {
+    margin-left: 155px;
+    margin-top: 10px;
+}
+.paragrafo_pergunta {
+    font-family: var(--FontePrimaria);
+    font-weight: 400;
+    color: var(--CinzaEscuto);
+    font-size: 13px;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+.botao_X {
+    width: 60px;
+    display: flex;
+    margin-left: 1050px;
+    margin-top: -105px;
+}
+.linha3 {
+    margin-left: 155px;
+    margin-top: 80px;
 }
