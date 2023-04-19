@@ -257,34 +257,41 @@
     margin-top: 20px;
     margin-right: 281px;
 }
+
 .grafico_informacao {
     display: flex;
     justify-content: center;
 }
+
 .grafico_info {
     display: flex;
     width: 70%;
     margin-top: 40px;
 }
+
 .blocos3_bab {
     display: flex;
     justify-content: space-around;
     justify-content: center;
 }
+
 .blocos_info1 {
     margin-top: 200px;
     width: 27%;
 }
+
 .blocos_info2 {
     margin-top: 200px;
     width: 27%;
     margin-left: 20px;
 }
+
 .blocos_info3 {
     margin-top: 200px;
     width: 27%;
     margin-left: 20px;
 }
+
 .titulo_informacao_4blocos {
     font-family: var(--FontePrimaria);
     font-weight: 700;
@@ -528,9 +535,11 @@
     margin-left: 10px;
     width: 35px;
 }
-.perguntas h2 p img{
+
+.perguntas h2 p img {
     display: flex;
 }
+
 .titulo_perguntas {
     font-family: var(--FontePrimaria);
     font-weight: 700;
@@ -538,6 +547,7 @@
     display: flex;
     justify-content: center;
 }
+
 .paragrafo_perguntas {
     font-family: var(--FontePrimaria);
     font-weight: 400;
@@ -547,10 +557,12 @@
     color: var(--CinzaEscuto);
     font-size: 13px;
 }
+
 .linha {
     margin-left: 155px;
     margin-top: 30px;
 }
+
 .pergunta1 {
     font-family: var(--FontePrimaria);
     font-weight: 400;
@@ -559,16 +571,19 @@
     margin-left: 180px;
     display: flex;
 }
+
 .mais {
     width: 60px;
     display: flex;
     margin-left: 1050px;
     margin-top: -45px;
 }
+
 .linha2 {
     margin-left: 155px;
     margin-top: 10px;
 }
+
 .paragrafo_pergunta {
     font-family: var(--FontePrimaria);
     font-weight: 400;
@@ -577,16 +592,19 @@
     margin-left: 180px;
     margin-top: 15px;
 }
+
 .botao_X {
     width: 60px;
     display: flex;
     margin-left: 1050px;
     margin-top: -105px;
 }
+
 .linha3 {
     margin-left: 155px;
     margin-top: 80px;
 }
+
 .quadrado_verde {
     border: solid var(--Verde);
     background-color: var(--Verde);
@@ -597,13 +615,15 @@
     margin-right: 140px;
     margin-top: 100px;
 }
+
 .titulo_quadrado {
     font-family: var(--FontePrimaria);
     font-weight: 700;
     font-size: 30px;
     display: flex;
-    justify-content: center;        
+    justify-content: center;
 }
+
 .paragrafo1_quadrado {
     display: flex;
     justify-content: center;
@@ -611,6 +631,7 @@
     font-weight: 400;
     margin-top: 20px;
 }
+
 .paragrafo2_quadrado {
     display: flex;
     justify-content: center;
@@ -618,11 +639,13 @@
     font-weight: 400;
     margin-top: 5px;
 }
+
 .final_quadrado {
     display: flex;
     justify-content: center;
     margin-top: 40px;
 }
+
 .quadrado_search {
     display: flex;
     background-color: var(--Branco);
@@ -635,6 +658,7 @@
     margin-top: -35px;
     padding-right: 150px;
 }
+
 .quadrado__botao1 {
     text-align: center;
     display: flex;
@@ -651,40 +675,49 @@
     margin-top: -4px;
     margin-left: -128px;
 }
+
 .rodape {
     background-color: var(--Azul);
     margin-top: 100px;
     padding-top: 60px;
     padding-bottom: 20px;
 }
+
 .rodape_conteudo {
     display: flex;
     justify-content: space-evenly;
 }
+
 .coluna_icon {
     display: flex;
     flex-direction: column;
 }
+
 .coluna_company {
     display: flex;
     flex-direction: column;
 }
+
 .coluna_SupportUs {
     display: flex;
     flex-direction: column;
 }
+
 .coluna_Resources {
     display: flex;
     flex-direction: column;
 }
+
 .coluna_Address {
     display: flex;
     flex-direction: column;
 }
+
 .linha_rodape {
     margin-left: 155px;
     margin-top: 30px;
 }
+
 .paragrafo_rodape_final {
     display: flex;
     justify-content: center;
@@ -694,6 +727,7 @@
     font-size: 12px;
     margin-top: 20px;
 }
+
 .link_rodape {
     text-decoration: none;
     color: var(--Branco);
@@ -701,9 +735,11 @@
     font-size: 12px;
     margin-top: 20px;
 }
+
 .destaque_verde {
     color: var(--VerdeRodape);
 }
+
 .paragrafo_rodape {
     color: var(--Branco);
     font-family: var(--FontePrimaria);
@@ -711,18 +747,21 @@
     font-size: 12px;
     margin-top: 20px;
 }
+
 .titulo_secundario_rodape {
     color: var(--Branco);
     font-weight: 400;
     font-family: var(--FontePrimaria);
     font-size: 15px;
 }
+
 .titulo_rodape {
     color: var(--Branco);
     font-weight: 600;
     font-family: var(--FontePrimaria);
     font-size: 15px;
 }
+
 .botao_rodape {
     text-decoration: none;
     border: solid var(--Branco);
@@ -739,9 +778,11 @@
     font-weight: 700;
     margin-top: 20px;
 }
+
 .icon_branco {
     width: 70%;
 }
+
 .icons_rodape {
     margin-top: 20px;
     width: 60%;
