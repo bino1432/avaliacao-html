@@ -257,20 +257,34 @@
     margin-top: 20px;
     margin-right: 281px;
 }
-
+.grafico_informacao {
+    display: flex;
+    justify-content: center;
+}
 .grafico_info {
     display: flex;
     width: 70%;
     margin-top: 40px;
-    margin-left: 190px;
 }
-
-.blocos_info {
-    width: 65%;
+.blocos3_bab {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+.blocos_info1 {
     margin-top: 200px;
-    margin-left: 230px;
+    width: 27%;
 }
-
+.blocos_info2 {
+    margin-top: 200px;
+    width: 27%;
+    margin-left: 20px;
+}
+.blocos_info3 {
+    margin-top: 200px;
+    width: 27%;
+    margin-left: 20px;
+}
 .titulo_informacao_4blocos {
     font-family: var(--FontePrimaria);
     font-weight: 700;
