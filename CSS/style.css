@@ -572,3 +572,15 @@
     margin-left: 155px;
     margin-top: 80px;
 }
+.quadrado_verde {
+    display: flex;
+    justify-content: center;
+}
+.titulo_quadrado {
+    font-family: var(--FontePrimaria);
+    font-weight: 700;
+    font-size: 30px;
+    border: solid var(--Verde);
+    background-color: var(--Verde);
+    border-radius: 16px;
+}
