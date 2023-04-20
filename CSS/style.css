@@ -106,15 +106,18 @@
 }
 
 .img_celular {
-    width: 28%;
-    float: right;
-    margin-right: 110px;
+    width: 32%;
+    float: right;;
+    margin-right: 100px;
+    margin-top: -345px;
 }
 
 #main_img img {
     display: flex;
 }
+.img_celular_main {
 
+}
 .main_paragrafo {
     font-family: var(--FontePrimaria);
     font-size: 15px;
@@ -819,5 +822,11 @@
     .botao_mobile {
         display: flex;
         margin-left: 5px;
+    }
+    .text_main {
+        flex-direction: column;
+    }
+    .img_celular {
+        width: 60%;
     }
 }
