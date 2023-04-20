@@ -815,6 +815,7 @@
         font-family: var(--FontePrimaria);
         font-size: 34px;
         margin-left: 15px;
+        margin-right: 0;
     }
     .cabecalho_botao {
         margin-left: 5px;
@@ -827,6 +828,9 @@
         flex-direction: column;
     }
     .img_celular {
-        width: 60%;
+        width: 20%;
+    }
+    .titulo_main {
+        font-size: 30px;
     }
 }
