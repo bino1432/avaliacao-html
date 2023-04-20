@@ -85,27 +85,6 @@
     margin-left: 5px;
 }
 
-.cabecalho_pesquisa {
-    display: flex;
-    background-color: var(--Branco);
-    border: solid 1px;
-    border-radius: 50px;
-    width: 150px;
-    margin-left: 25px;
-}
-
-.cabecalho_search {
-    border: none;
-    height: 32px;
-    width: 110px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    margin-left: 2px;
-}
-
 .fa-solid {
     margin-top: 10px;
     margin-left: 11px;
@@ -116,6 +95,9 @@
     text-decoration: none;
     width: 45px;
     font-family: var(--FontePrimaria);
+}
+.botao_mobile {
+    display: none;
 }
 
 .img_roxo {
@@ -164,6 +146,27 @@
     margin-right: 730px;
     display: flex;
     margin-top: 20px;
+}
+
+.cabecalho_pesquisa {
+    display: flex;
+    background-color: var(--Branco);
+    border: solid 1px;
+    border-radius: 50px;
+    width: 150px;
+    margin-left: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.cabecalho_search {
+    border: none;
+    height: 32px;
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .email_main {
@@ -786,4 +789,33 @@
 .icons_rodape {
     margin-top: 20px;
     width: 60%;
+}
+
+@media (max-width: 768px) {
+    .promocao {
+        display: none;
+
+    }
+
+    #cabecalho_menu_links a {
+        display: none;
+    }
+
+    #main_img .img_roxo {
+        display: none;
+    }
+    .cabecalho_pesquisa {
+        display: none;
+    }
+    .logoN {
+        color: var(--Azul);
+        font-family: var(--FontePrimaria);
+        font-size: 34px;
+        margin-left: 10px;
+        margin-right: 270px;
+    }
+    .botao_mobile {
+        display: flex;
+        margin-left: 5px;
+    }
 }
