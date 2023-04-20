@@ -811,8 +811,11 @@
         color: var(--Azul);
         font-family: var(--FontePrimaria);
         font-size: 34px;
-        margin-left: 10px;
+        margin-left: 15px;
         margin-right: 270px;
+    }
+    .cabecalho_botao {
+        margin-left: 30px;
     }
     .botao_mobile {
         display: flex;
