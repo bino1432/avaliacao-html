@@ -1066,4 +1066,9 @@
         width: 90%;
         margin-left: 40px;
     }
+    .linha_rodape {
+        margin-left: 40px;
+        margin-top: 30px;
+        width: 90%;
+    }
 }
