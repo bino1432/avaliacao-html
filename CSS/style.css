@@ -644,7 +644,12 @@
     font-weight: 400;
     margin-top: 5px;
 }
-
+.paragrafo_mobile {
+    display: none;
+}
+.paragrafo2_mobile {
+    display: none;
+}
 .final_quadrado {
     display: flex;
     justify-content: center;
@@ -687,6 +692,9 @@
     padding-top: 60px;
     padding-bottom: 20px;
 }
+.coluna_icon_mobile {
+    display: none;
+}
 
 .rodape_conteudo {
     display: flex;
@@ -717,6 +725,9 @@
     display: flex;
     flex-direction: column;
 }
+.coluna_Adress_mobile {
+    display: none;
+}
 
 .linha_rodape {
     margin-left: 155px;
@@ -733,6 +744,12 @@
     margin-top: 20px;
 }
 
+.paragrafo_mobile_rodape_final {
+    display: none;
+}
+.paragrafo2_mobile_rodape_final {
+    display: none;
+}
 .link_rodape {
     text-decoration: none;
     color: var(--Branco);
@@ -1009,11 +1026,6 @@
         margin-top: 10px;
     }
     
-    
-    
-    
-    
-    
     .linha {
         margin-left: 0px;
         margin-top: 30px;
@@ -1070,5 +1082,138 @@
         margin-left: 40px;
         margin-top: 30px;
         width: 90%;
+    }
+    .paragrafo1_quadrado {
+        display: none;
+    }
+    
+    .paragrafo2_quadrado {
+        display: none;
+    }
+    .paragrafo_mobile {
+        display: flex;
+        justify-content: center;
+        font-family: var(--FontePrimaria);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    .paragrafo2_mobile {
+        display: flex;
+        justify-content: center;
+        font-family: var(--FontePrimaria);
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    .quadrado_search {
+        display: flex;
+        background-color: var(--Branco);
+        border: solid 1px;
+        border-radius: 50px;
+        width: 150px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        padding-left: 20px;
+        margin-top: -7px;
+        padding-right: 30px;
+        margin-right: 145px;
+    }
+    .fa-solid {
+        display: none;
+    }
+    .quadrado__botao1 {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid var(--Azul);
+        color: var(--Branco);
+        background-color: var(--Azul);
+        text-decoration: none;
+        font-family: var(--FontePrimaria);
+        border-radius: 50px;
+        width: 120px;
+        height: 40px;
+        margin-top: -6px;
+        margin-left: -138px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .coluna_icon_mobile {
+        display: flex;
+        flex-direction: column;
+        margin-left: 116px;
+    }
+    .icon_branco_mobile {
+        width: 20%;
+    }
+    .coluna_icon {
+        display: none;
+    }
+    .botao_rodape_mobile {
+        text-decoration: none;
+        border: solid var(--Branco);
+        background-color: var(--Branco);
+        color: var(--Preto);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: var(--FontePrimaria);
+        font-size: 12px;
+        width: 15%;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .paragrafo_rodape_mobile {
+        display: flex;
+        font-family: var(--FontePrimaria);
+        color: var(--Branco);
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .coluna_company {
+        margin-top: 15px;
+    }
+    .coluna_SupportUs {
+        margin-top: 15px;
+    }
+    .coluna_Resources {
+        margin-top: 15px;
+    }
+    .coluna_Adress {
+        display: none;
+    }
+    .coluna_Adress_mobile {
+        display: flex;
+        flex-direction: column;
+        margin-left: 116px;
+        margin-top: 15px;
+    }
+    .icons_rodape_mobile {
+        width: 30%;
+        margin-top: 10px;
+    }
+    .paragrafo_rodape_final {
+        display: none;
+    }
+    .paragrafo_mobile_rodape_final {
+        display: flex;
+        justify-content: center;
+        font-family: var(--FontePrimaria);
+        color: var(--Branco);
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .paragrafo2_mobile_rodape_final {
+        display: flex;
+        justify-content: center;
+        font-family: var(--FontePrimaria);
+        color: var(--Branco);
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 5px;
     }
 }
